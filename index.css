@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'roboto', sans-serif;
+}
+body {
+	background-color: #e5e5e5;
+}
+header {
+	background-color: #1b83e2;
+	height: 66px;
+}
+h1 {
+	font-style: normal;
+	font-size: 24px;
+	line-height: 18px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 20px;
+	color: #f4f4f4;
+}
+.container {
+	background-color: #f4f4f4;
+	width: 375px;
+	margin: 100px auto 0 auto;
+}
+
+main {
+	padding: 24px;
+}
+
+label {
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+	color: #777777;
+	display: block;
+}
+
+select {
+	background-color: #ffffff;
+	border: 1px solid #bbbbbb;
+	border-radius: 4px;
+	width: 100%;
+	height: 48px;
+	display: block;
+	cursor: pointer;
+	outline: none;
+	appearance: none;
+	padding-left: 16px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	margin-top: 6px;
+	margin-bottom: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+input {
+	background-color: #ffffff;
+	border: 1px solid #bbbbbb;
+	border-radius: 4px;
+	width: 100%;
+	height: 48px;
+	display: block;
+	cursor: pointer;
+	padding-left: 16px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	margin-top: 6px;
+	margin-bottom: 24px;
+	font-size: 18px;
+}
+
+button {
+	height: 48px;
+	border-radius: 25px;
+	display: block;
+	background-color: #1b83e2;
+	width: 100%;
+	cursor: pointer;
+	border: none;
+	color: #f4f4f4;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	margin: 24px 0 36px 0;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+button:active {
+	opacity: 0.7;
+}
+
+section {
+	border: 1px solid #1b83e2;
+}
+section,
+section div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section div {
+	margin: 22px 0 22px 0;
+}
+
+.moeda {
+	font-size: 18px;
+	color: #777777;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.valor {
+	font-size: 18px;
+	color: #1b83e2;
+	font-weight: bold;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CodeClub Convert Money</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header><h1>CodeClub Convert Money</h1></header>
+			<main>
+				<label>
+					Converter <b>de</b>
+					<select>
+						<option>R$ Real Brasileiro</option>
+					</select>
+				</label>
+
+				<label>
+					Converter <b>para
+					<select id="currency-select">
+						<option>US$ Dólar americano</option>
+						<option>€ Euro</option>
+						<option>Bitcoin</option>
+
+					</select>
+				</label>
+
+				<label>
+					Valor
+					<input placeholder="R$ 10.000.00" id="input-real" />
+				</label>
+
+				<button type="button" id="convert-button">Converter</button>
+
+				<section>
+					<div>
+						<img src="./assets/brasil.svg" alt="Bandeira do Brasil" />
+						<p class="moeda">Real</p>
+						<p class="valor" id="real-value-text">R$ 0,00</p>
+					</div>
+					<img src="./assets/Vector.svg" alt="Seta para baixo" />
+
+					<div>
+						<img
+							src="./assets/dolar.svg"
+							alt="Bandeira pais  conversão" id="currency-img"
+						/>
+						<p class="moeda" id="currency-name">Dólar Americano</p>
+						<p class="valor" id="currency-value-text">$0.00</p>
+					</div>
+				</section>
+			</main>
+		</div>
+	</body>
+	<script src="/javascript.js"></script>
+</html>
